@@ -1,0 +1,17 @@
+{
+  "name": "tslint-config-booheefe",
+  "version": "0.1.0",
+  "description": "TSLint config for Boohee FE team",
+  "main": "index.js",
+  "author": "simbawu <connect@simbawu.com>",
+  "license": "MIT",
+  "keywords": [
+    "tslint",
+    "booheefe",
+    "tslint-config"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BooheeFE/tslint-config-booheefe.git"
+  }
+}
