@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "simbawu <connect@simbawu.com>",
   "license": "MIT",
+  "dependencies": {
+    "tslint-eslint-rules": "^5.4.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^7.3.2",
     "@commitlint/config-conventional": "^7.3.1",
