@@ -308,7 +308,7 @@ module.exports = {
   // 禁止出现永远为 true 或永远为 false 的条件判断（通过类型预测出一个表达式为 true 还是 false）
   "strict-type-predicates": false,
   // switch 语句必须有 default
-  "switch-default": false,
+  "switch-default": true,
   // switch 的最后一项禁止有 break
   "switch-final-break": false,
   // 限制对象、数组、解构赋值等的最后一项末尾是否需要逗号
