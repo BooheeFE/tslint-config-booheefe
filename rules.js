@@ -42,7 +42,7 @@ module.exports = {
   // 文件的开头必须有指定的字符串
   "file-header": false,
   // 约束文件命名规范
-  "file-name-casing": false,
+  "file-name-casing": [true, "kebab-case"],
   // 禁用指定的模块
   "import-blacklist": false,
   // import 语句中，关键字之间的间距必须是一个空格
