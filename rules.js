@@ -1,7 +1,7 @@
 module.exports = {
   // 重载的函数必须写在一起
   "adjacent-overload-signatures": true,
-  // 变量定义需要竖向对其
+  // 变量定义需要竖向对齐
   align: false,
   // 限制必须使用 T[] 或 Array<T> 之中的一种来定义数组的类型
   "array-type": false,
