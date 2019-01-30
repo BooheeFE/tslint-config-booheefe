@@ -289,8 +289,8 @@ module.exports = {
   "prefer-while": false,
   // async 函数的返回值必须是 Promise
   "promise-function-async": false,
-  // 必须使用单引号，jsx 中必须使用双引号
-  quotemark: [true, "single", "jsx-double", "avoid-template", "avoid-escape"],
+  // 必须使用单引号
+  quotemark: [true, "single", "avoid-template", "avoid-escape"],
   // parseInt 必须传入第二个参数
   radix: true,
   // 使用加号时，两者必须同为数字或同为字符串
