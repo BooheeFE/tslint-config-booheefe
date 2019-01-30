@@ -47,8 +47,8 @@ module.exports = {
   "import-blacklist": false,
   // import 语句中，关键字之间的间距必须是一个空格
   "import-spacing": true,
-  // 一个缩进必须用四个空格替代
-  indent: [true, "spaces", 4],
+  // 一个缩进必须用2个空格替代
+  indent: [true, "spaces", 2],
   // 接口名称必须已 I 开头
   "interface-name": false,
   // 优先使用接口而不是字面类型
