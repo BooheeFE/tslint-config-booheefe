@@ -15,6 +15,8 @@ module.exports = {
   ban: false,
   // 禁止使用逗号操作符
   "ban-comma-operator": true,
+  // 注释禁用@ts-ignore
+  "ban-ts-ignore": true,
   // 禁用特定的类型
   "ban-types": false,
   // 数字字面量必须在加号的右边，即禁止 1 + x
