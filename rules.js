@@ -346,7 +346,12 @@ module.exports = {
   // 必须使用 isNaN(foo) 而不是 foo === NaN
   "use-isnan": true,
   // 限制变量命名规则
-  "variable-name": false,
+  "variable-name": [
+    true,
+    "ban-keywords",
+    "check-format",
+    "allow-leading-underscore"
+  ],
   // 限制空格的位置
   whitespace: [
     true,
